@@ -1,0 +1,6 @@
+dplyr>=1.0.0
+readr
+stringr
+magrittr
+ggplot2>=3.4.0
+gridExtra

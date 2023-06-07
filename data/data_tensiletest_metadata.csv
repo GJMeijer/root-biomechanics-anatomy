@@ -1,0 +1,100 @@
+sample_id,diameter [mm],span_length [mm],displacement_rate [mm/min],root_type,genotype,segment,test_succesful,test_comment
+525,,,4,,,,TRUE,Good test
+526,,,4,,,,TRUE,Undefined
+527,,,4,,,,FALSE,"No failure but run good for modulus, Test 4 to be used for tensile strength"
+527,,,4,,,,FALSE,Possible that test 3 was tensile failure but inside top clamp
+527x,,,4,,,,FALSE,
+528,,,4,,,,TRUE,ok test
+529,,,4,,,,FALSE,Undefined - GJM: not good - has to stretch
+530,,,4,,,,TRUE,Undefined
+533,,,4,,,,TRUE,ok
+534,,,4,,,,FALSE,"failed in top clamp, modulus ok"
+535,,,4,,,,TRUE,good
+536,,,4,,,,FALSE,"clamp failure, slippage"
+538,,,4,,,,TRUE,good
+539,,,4,,,,TRUE,good
+540,,,4,,,,FALSE,Top Clamp failure
+541,,,4,,,,TRUE,Fail just outside clamp
+542,,,4,,,,FALSE,Modulus ok but cortex failure in clamp
+548,,,4,,,,FALSE,cortex failure
+554,0.65,50,4,Seminal,3(N),0-80,TRUE,good
+555,1.02,50,4,1stN,3(N),0-80,TRUE,good
+556,1.17,50,4,1stN,3(N),0-80,TRUE,good
+557,1.33,50,4,2ndN,3(N),0.8,FALSE,Cortex failure then stele pull-out
+558,1.19,50,4,2ndN,3(N),80-160,TRUE,Break at youngest root end
+559,1.37,50,4,2ndN,3(N),0-80,TRUE,Break outside clamp at youngest end
+560,1.21,50,4,2ndN,3(N),80-160,TRUE,ok
+561,1.8,50,4,3rdN,3(N),0-80,FALSE,bottom clamp fail mod ok
+562,2.15,50,4,3rdN,3(N),80-160,FALSE,Root bendy so mod not good and clamp slip
+562x,,,4,,,,FALSE,
+563,2.12,50,4,3rdN,3(N),0-80,FALSE,"slip out bot clamp, no peak"
+564,1.99,50,4,3rdN,3(N),80-160,FALSE,some slippage before peak
+565,2.03,50,4,4thN,3(N),0-80,TRUE,ok
+566,2.13,50,4,4thN,3(N),80-160,FALSE,Pull-out in top clamp
+567,1.69,50,4,4thN,3(N),160-240,FALSE,Multiple cracks in cortex then clamp fail
+568,1.93,50,4,4thN,3(N),0-80,FALSE,Youngest end cortex failure in bottom clamp
+569,1.95,50,4,4thN,3(N),80-160,TRUE,fail at young end
+570,1.81,50,4,4thN,3(N),160-240,TRUE,ok
+571,3.16,50,4,5thN,3(N),0-80,FALSE,"Mod ok but cortex fail in clamp, no peak"
+572,1.9,50,4,5th,3(N),80-160,TRUE,At young end
+573,,,4,,,,FALSE,
+574,3.8,50,4,5thN,3(N),0-80,TRUE,Failed at young end
+574_29,1.41,50,4,5thN,3(N),160-240,TRUE,Young end
+575,1.55,50,4,5thN,3(N),80-160,TRUE,fail at young end
+577,3.21,50,4,6thN,3(N),0-80,FALSE,"cortex fail in bot clamp, mod ok"
+578,2.45,50,4,6thN,3(N),80-160,TRUE,break at young end
+579,1.96,50,4,6thN,3(N),160-240,FALSE,"Fail in top clamp, mod ok"
+580,1.43,50,4,6thN,3(N),240-320,TRUE,good with fail at young end
+581,1.03,50,4,6thN,3(N),320-400,TRUE,cortex fail then stele
+582,1.04,50,4,6thN,3(N),400-480,FALSE,Cortex then stele failure good test
+583,4.44,50,4,6thN,3(N),0-80,FALSE,Modulus ok but clamp slippage
+584,3.11,50,4,6thN,3(N),80-160,FALSE,Initial slope was root straightening followed by cortex fail
+585,1.78,50,4,6thN,3(N),160-240,FALSE,modulus ok but slippage in top clamp
+586,1.66,50,4,6thN,3(N),240-320,TRUE,Break at youngest end of sample
+587,1.25,50,4,6thN,3(N),320-400,FALSE,Break at youngest end of sample (GJM excluded)
+612,1,50,4,1stN,8-FF,0-80,TRUE,good
+613,0.81,50,4,1stN,8-FF,80-160,TRUE,good
+614,1.05,50,4,1stN,8-FF,0-80,FALSE,Mod ok but clamp fail
+615,1.19,50,4,1stN,8-FF,80-160,TRUE,Undefined
+616,1.25,50,4,2ndN,8-FF,0-80,TRUE,test ok
+617,1.2,50,4,2ndN,8-FF,80-160,TRUE,Young end
+618,0.97,50,4,2ndN,8-FF,0-80,TRUE,break at young end
+619,1.78,50,4,3rdN,8-FF,0-80,FALSE,good - GJM:only ok for strength - has to stretch at start presumably due to tortuosity
+620,1.94,50,4,3rdN,8-FF,80-160,TRUE,young end
+621,1.44,50,4,3rdN,8-FF,160-240,FALSE,cortex then stele
+622,1.42,50,4,3rdN,8-FF,0-80,TRUE,mod ok but fail in bottom clamp
+624,2.15,50,4,4thN,8-FF,0-80,FALSE,"mod ok not peak, audible breaks of cortex"
+625,1.96,50,4,4thN,8-FF,80-160,TRUE,young end
+626,1.31,50,4,4thN,8-FF,160-240,TRUE,young end
+634,2.78,50,4,6thN,8-FF,80-160,FALSE,"fail in clamp, mod ok"
+635,3.34,50,4,6thN,8-FF,0-80,FALSE,fail in top clamp
+635x,,,4,,,,FALSE,
+636,3.11,50,4,6thN,8-FF,80-160,FALSE,"clamp slippage, modulus ok"
+637,1.31,50,4,2ndN,2(N),0-80,TRUE,young end
+638,2.74,50,4,3rdN,2(N),0-80,TRUE,"young end, initial failures audible during test"
+639,2.03,50,4,3rdN,2(N),80-160,TRUE,good
+640,1.94,50,4,3rdN,2(N),0-80,TRUE,good
+641,2.81,50,4,4thN,2(N),0-80,TRUE,good
+642,2.31,50,4,4thN,2(N),80-160,TRUE,good
+643,3.89,50,4,4thN,2(N),0-80,TRUE,good
+644,2.59,50,4,4thN,2(N),80-160,TRUE,"not good, mod ok"
+646,3.96,50,4,5thN,2(N),0-80,FALSE,bad
+646x,,,4,,,,FALSE,
+648,1.02,50,4,2ndN,7,0-80,TRUE,at young end
+649,2,50,4,3rdN,7,0-80,FALSE,"mod ok, cortex fail at young in clamp"
+650,1.76,50,4,3rdN,7,80-160,FALSE,"mod ok, no peak as cortex fail in clamp"
+651,2.28,50,4,3rdN,7,0-80,FALSE,"mod ok but not pk stress, smal dips= cortex fail"
+652,1.83,50,4,3rdN,7,80-160,TRUE,good
+653,2.4,50,4,4thN,7,0-80,FALSE,"clear cracking of cortex, mod but no peak"
+654,2.02,50,4,4thN,7,80-160,TRUE,young end
+655,2.84,50,4,4thN,7,0-80,FALSE,mod ok but not peak stress
+656,2.12,50,4,4thN,7,80-160,FALSE,"mod ok, but not peak stress"
+660,3.18,50,4,5thN,7,80-160,FALSE,mod ok but not peak stress
+661,1.17,50,4,1stN,4(N),0-80,TRUE,young end
+662,1.23,50,4,2ndN,4(N),0-80,TRUE,young end
+663,1.03,50,4,2ndN,4(N),0-80,TRUE,young end
+664,1.53,50,4,3rdN,4(N),0-80,TRUE,good
+665,1.33,50,4,3rd,4(N),0-80,TRUE,young end
+666,1.92,50,4,4th,4(N),0-80,TRUE,young end
+667,1.94,50,4,4thN,4(N),80-160,TRUE,young end
+668,1.99,50,4,4thN,4(N),0-80,TRUE,young end
