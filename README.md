@@ -1,6 +1,6 @@
-# Root anatomy and biomechanical properties: Are plant roots individual elements or the sum of their parts? - Data and code
+# Root anatomy and biomechanical properties: improving predictions through root cortical and stele properties - Data and code
 
-This data and code repository contains all raw measurement data, interpreted data and code associated with the paper "Root anatomy and biomechanical properties: Are plant roots individual elements or the sum of their parts?", as published by G. J. Meijer, J. G. Chimungu, J. P. Lynch and K. W. Loades in the journal Plant & Soil.
+This data and code repository contains all raw measurement data, interpreted data and code associated with the paper "Root anatomy and biomechanical properties: improving predictions through root cortical and stele properties", as published by G. J. Meijer, J. G. Chimungu, J. P. Lynch and K. W. Loades in the journal Plant & Soil (2024).
 
 An explanation of all files, grouped per folder, is given below.
 
